@@ -57,13 +57,24 @@ Two shorcuts that I recommend are:
 ## Eyecandy extensions 
 I don't rely on them very much but they make life a bit nicer
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-* [Quiet Light for VSC](https://marketplace.visualstudio.com/items?itemName=onecrayon.theme-quietlight-vsc)
 * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 ## Fonts
 
 * [Fira Code](https://github.com/tonsky/FiraCode) for text editor
+
+## Themes worth considering
+
+I generally use **light theme** because I work in quite bright environment and it feels better for my eyes. I know I am in the [minority](https://css-tricks.com/poll-results-light-on-dark-is-preferred/) my default theme is **Quiet Light** (it comes preinstalled), but these are the ones I considered:
+
+* Solarized Autumn
+* Ysgrifennwr
+* Brackets Light Pro
+* Aofuji Light Theme
+* Primer Light
+* Nüshu
+* Night Owl
 
 ## Settings declutter
 
