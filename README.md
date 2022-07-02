@@ -42,7 +42,9 @@ Two shorcuts that I recommend are:
 
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Never hover over an error/warning again
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) - If you are working with a couple of instances of VSCode at the same time this is a life saver, color code them for easier context switching
+* [Select Paragraph](https://github.com/nachocab/vscode-select-paragraph) - one keyboard shortcut for paragraph selection, extremely simple, extremely useful
 * [MetaGo](https://marketplace.visualstudio.com/items?itemName=metaseed.metago) - this one is for really mouseless navigation. 
+
 
 ### Metago shortcuts: 
 * ```Alt /``` for jumping to any character in the current file. 

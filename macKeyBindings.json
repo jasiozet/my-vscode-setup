@@ -1,55 +1,74 @@
+// Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-      "key": "shift+cmd+k",
-      "command": "editor.action.deleteLines",
-      "when": "textInputFocus && !editorReadonly"
-    },
-    {
-      "key": "shift+cmd+k",
-      "command": "-editor.action.deleteLines",
-      "when": "textInputFocus && !editorReadonly"
-    },
-    {
-      "key": "home",
-      "command": "workbench.action.terminal.sendSequence",
-      "when": "terminalFocus",
-      "args": { "text": "\u0001" }
-    },
-    {
-      "key": "end",
-      "command": "workbench.action.terminal.sendSequence",
-      "when": "terminalFocus",
-      "args": { "text": "\u0005" }
-    },
-    {
-      "key": "cmd+left",
-      "command": "-workbench.action.terminal.sendSequence",
-      "when": "terminalFocus"
-    },
-    {
-      "key": "cmd+right",
-      "command": "-workbench.action.terminal.sendSequence",
-      "when": "terminalFocus"
-    },
-    {
-      "key": "shift+delete",
-      "command": "editor.action.deleteLines",
-      "when": "textInputFocus && !editorReadonly"
-    },
-    {
-      "key": "shift+cmd+;",
-      "command": "editor.action.showDefinitionPreviewHover",
-      "when": "editorTextFocus"
-    },
-    {
-      "key": "cmd+k cmd+e",
-      "command": "-keybindings.editor.defineWhenExpression",
-      "when": "inKeybindings && keybindingFocus"
-    },
-    {
-      "key": "cmd+k cmd+e",
-      "command": "workbench.files.action.focusOpenEditorsView",
-      "when": "workbench.explorer.openEditorsView.active"
-    }
-  ]
-  
+  {
+    "key": "shift+cmd+k",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "home",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+    "args": { "text": "\u0001" }
+  },
+  {
+    "key": "end",
+    "command": "workbench.action.terminal.sendSequence",
+    "when": "terminalFocus",
+    "args": { "text": "\u0005" }
+  },
+  {
+    "key": "cmd+left",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+delete",
+    "command": "editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+;",
+    "command": "editor.action.showDefinitionPreviewHover",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+k cmd+e",
+    "command": "-keybindings.editor.defineWhenExpression",
+    "when": "inKeybindings && keybindingFocus"
+  },
+  {
+    "key": "cmd+k cmd+e",
+    "command": "workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "alt+p",
+    "command": "-metaGo.changeSurroundingPair",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "alt+p",
+    "command": "select-paragraph.selectParagraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "-select-paragraph.selectParagraph",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+[",
+    "command": "editor.action.selectToBracket"
+  }
+]
