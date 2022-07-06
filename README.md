@@ -42,19 +42,9 @@ Two shorcuts that I recommend are:
 
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Never hover over an error/warning again
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) - If you are working with a couple of instances of VSCode at the same time this is a life saver, color code them for easier context switching
+* [Quick and Simple Text Selection](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select) - I use it for selecting stuff inside brackets ```CTRL K; <bracketType>```
 * [Select Paragraph](https://github.com/nachocab/vscode-select-paragraph) - one keyboard shortcut for paragraph selection, extremely simple, extremely useful
-* [MetaGo](https://marketplace.visualstudio.com/items?itemName=metaseed.metago) - this one is for really mouseless navigation. 
-
-
-### Metago shortcuts: 
-* ```Alt /``` for jumping to any character in the current file. 
-* add ```Shift``` if you want to select additionaly 
-* ```Alt P``` to select surounding brackets 
-* add ```Shift``` for content and
-* add ```Ctrl``` for both 
-* ```Alt '``` toggle bookmark. 
-* ```Alt \``` show all bookmarks
-* ```Alt [``` and ```Alt ]``` navigate bookmarks 
+* [Align by RegEx](https://marketplace.visualstudio.com/items?itemName=janjoerke.align-by-regex) - another simple but powerful one
 
 ## Eyecandy extensions 
 I don't rely on them very much but they make life a bit nicer
