@@ -1,15 +1,5 @@
 [
   {
-    "key": "shift+cmd+k",
-    "command": "editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
-    "key": "shift+cmd+k",
-    "command": "-editor.action.deleteLines",
-    "when": "textInputFocus && !editorReadonly"
-  },
-  {
     "key": "home",
     "command": "workbench.action.terminal.sendSequence",
     "when": "terminalFocus",
@@ -53,11 +43,6 @@
   },
   {
     "key": "alt+p",
-    "command": "-metaGo.changeSurroundingPair",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "alt+p",
     "command": "select-paragraph.selectParagraph",
     "when": "editorTextFocus"
   },
@@ -67,12 +52,12 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "cmd+[",
-    "command": "editor.action.selectToBracket"
+    "key": "alt+[",
+    "command": "-editor.action.inlineSuggest.showPrevious",
+    "when": "inlineSuggestionVisible && !editorReadonly"
   },
   {
     "key": "alt+[",
-    "command": "-metaGo.bookmark.previous",
-    "when": "editorTextFocus"
+    "command": "editor.action.selectToBracket"
   }
 ]
