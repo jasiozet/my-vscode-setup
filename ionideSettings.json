@@ -1,0 +1,16 @@
+  //IONIDE
+  "FSharp.inlayHints.enabled": true,
+  "FSharp.inlayHints.parameterNames": false,
+  "FSharp.inlayHints.typeAnnotations": false,
+
+  //Nicer explorer view
+  "FSharp.showProjectExplorerIn": "explorer",
+  "FSharp.showExplorerOnStartup": false,
+  
+  //File nesting for FABLE
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.fs": "${basename}.fsi, ${basename}.fs.js, ${basename}.fs.js.map",
+    "*.fsl": "${basename}.fsi, ${basename}.fs",
+    "*.fsy": "${basename}.fsi, ${basename}.fs"
+  },
