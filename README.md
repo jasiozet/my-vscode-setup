@@ -33,6 +33,7 @@ Two shorcuts that I recommend are:
 * ```Alt Shift ⬇️``` - copy line below
 * ```Shift Del ``` - delete line
 * ```Ctrl L``` - highlight line (can be chained)
+* ```Ctrl Shift [```  **/**  ```Ctrl Shift ]``` - navigate to next / previous open editor
 
 ## Other useful shortcuts
 
