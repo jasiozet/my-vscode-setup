@@ -86,6 +86,9 @@ I generally use **light theme** because I work in quite bright environment and i
   "editor.inlineSuggest.enabled": true,
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreview": false, 
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.editorActionsLocation": "hidden",
 ```
 
 ## What I also personally use:
@@ -95,3 +98,5 @@ I generally use **light theme** because I work in quite bright environment and i
 ## Why not Neovim / Vim / Emacs ?
 
 Simply because VS Code gets extensions / language support the fastest and I'm not good enough at Vim and I find hjkl to be too tricky (why it isn't modernized to ijkl or something?)
+
+But checkout [my try for VIM in Vscode](vim.md)
