@@ -16,7 +16,8 @@ I use terminal and ```cd``` command to navigate to repository and ```code .``` t
 
 I prefer Vertical Tabs over horizontal ones (I use Open Editors for that focus on it with ```Ctrl + K, E```), I like having the bar on the left side so the code starts a little bit more in the center of the screen. I have the main bar on the right, usually in File explorer and I hide it (```Ctrl + B```) when I need more space. I have a terminal open (```Ctrl + ` ```) almost all the time and I use it mainly for launching project from the command line and git CLI.
 
-![Screenshot](img/screenshot.png)
+<!-- ![Screenshot](img/screenshot.png) -->
+TODO: add new screenshot
 
 ## Philosophy
 
@@ -31,7 +32,7 @@ Two shorcuts that I recommend are:
 * ```Ctrl K  Ctrl C ``` - comment line/selection
 * ```Ctrl K  Ctrl U ``` - uncomment line/selection
 * ```Alt Shift ⬇️``` - copy line below
-* ```Shift Del ``` - delete line
+* ```Shift Del ``` or ```Ctrl Shift k``` - delete line
 * ```Ctrl L``` - highlight line (can be chained)
 * ```Ctrl Shift [```  **/**  ```Ctrl Shift ]``` - navigate to next / previous open editor
 
@@ -43,21 +44,32 @@ Two shorcuts that I recommend are:
 
 * [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) - Never hover over an error/warning again
 * [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock) - If you are working with a couple of instances of VSCode at the same time this is a life saver, color code them for easier context switching
-* [Quick and Simple Text Selection](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select) - I use it for selecting stuff inside brackets ```CTRL K; <bracketType>```
-* [Select Paragraph](https://github.com/nachocab/vscode-select-paragraph) - one keyboard shortcut for paragraph selection, extremely simple, extremely useful
-* [Align by RegEx](https://marketplace.visualstudio.com/items?itemName=janjoerke.align-by-regex) - another simple but powerful one
 
 ## Eyecandy extensions 
 I don't rely on them very much but they make life a bit nicer
 * [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 * [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
+
+## Extensions I'm trying out
+* [bookmarks]()
+* [excalidraw]()
+* [shifter]()
+
+## Extensions I've used but dropped since
+* [Quick and Simple Text Selection](https://marketplace.visualstudio.com/items?itemName=dbankier.vscode-quick-select) - I use it for selecting stuff inside brackets ```CTRL K; <bracketType>```
+* [Select Paragraph](https://github.com/nachocab/vscode-select-paragraph) - one keyboard shortcut for paragraph selection, extremely simple, extremely useful
+* [Align by RegEx](https://marketplace.visualstudio.com/items?itemName=janjoerke.align-by-regex) - another simple but powerful one
 * [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 ## Fonts
 
 * [Fira Code](https://github.com/tonsky/FiraCode) for text editor
 
-## Themes worth considering
+
+## Themes
+* Solarized Light with custom colors
+
+## Deprecated Themes worth considering
 
 I generally use **light theme** because I work in quite bright environment and it feels better for my eyes. I know I am in the [minority](https://css-tricks.com/poll-results-light-on-dark-is-preferred/) my default theme is **Quiet Light** (it comes preinstalled), but these are the ones I considered:
 
@@ -90,6 +102,7 @@ I generally use **light theme** because I work in quite bright environment and i
   "workbench.editor.tabActionCloseVisibility": false,
   "workbench.editor.editorActionsLocation": "hidden",
 ```
+Also check [my settings json](settings.copy.json)
 
 ## What I also personally use:
 
@@ -97,6 +110,8 @@ I generally use **light theme** because I work in quite bright environment and i
 
 ## Why not Neovim / Vim / Emacs ?
 
-Simply because VS Code gets extensions / language support the fastest and I'm not good enough at Vim and I find hjkl to be too tricky (why it isn't modernized to ijkl or something?)
+For emacs I'm too scared for my pinky ;) 
+But the real reason VS Code gets extensions / language support the fastest and it feels stable and is getting better and better for C# which I mostly use.
+I'm not good enough at Vim and I find hjkl to be too tricky (why it isn't modernized to ijkl or something?) and at some point I in this modern semi-AI era I feel like typing speed is not that big of a stopper. Vim bindings certainly makes it more fun to edit text and in the future I'll probably try them again, and again. :)
 
-But checkout [my try for VIM in Vscode](vim.md)
+Checkout [my try for VIM in Vscode](vim.md) that I will probably reuse again, and again.

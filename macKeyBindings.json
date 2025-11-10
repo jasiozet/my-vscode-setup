@@ -59,5 +59,33 @@
   {
     "key": "alt+[",
     "command": "editor.action.selectToBracket"
-  }
+  },
+    {
+  "key": "cmd+h",
+  "command": "cursorMove",
+  "args": {
+      "to": "wrappedLineColumnCenter",
+      "select": false  // default is false
+    }
+  },
+  {
+  "key": "cmd+down",
+  "command": "cursorMove",
+  "args": {
+      "to": "down",
+      "by": "line",
+      "value": 20,
+      "select": false  // default is false
+    }
+  },
+  {
+  "key": "cmd+up",
+  "command": "cursorMove",
+  "args": {
+      "to": "up",
+      "by": "line",
+      "value": 20,
+      "select": false  // default is false
+    }
+  },
 ]

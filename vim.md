@@ -1,6 +1,6 @@
-# Decided to try some Vim in VsCode
+# Deprecated: Decided to try some Vim in VsCode
 
-I can't really go full neovim due to bad C# support. VsCode Vim is certainly possible
+I tried to go neovim but C# support is a bit complicated and I feel like with some updates I might loose stability of my env. VsCode Vim is certainly possible
 
 [VsCode vim extension](https://github.com/VSCodeVim/Vim)
 

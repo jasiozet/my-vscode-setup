@@ -1,7 +1,6 @@
-# Backup for MetaGo extension
+# Deprecated: Backup for MetaGo extension
 
 I think it is a **realy** cool one, but after using it for a while it just populates too much stuff automatically and I keep accidentally hitting some shortcuts. 
-
 
 [MetaGo](https://marketplace.visualstudio.com/items?itemName=metaseed.metago) - this one is for really mouseless navigation. 
 

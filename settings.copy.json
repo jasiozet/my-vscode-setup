@@ -1,0 +1,100 @@
+  {
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  
+  //BEHAVIOR + BASIC LOOK
+  "explorer.confirmDelete": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.dragAndDrop": false,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Fira Code', Menlo, Monaco",
+  "editor.fontSize": 14,
+  "workbench.iconTheme": "vscode-icons",
+  "editor.cursorStyle": "line",
+  
+  //DECLUTTER
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.sideBar.location": "right",
+  "explorer.openEditors.sortOrder": "alphabetical",
+  "explorer.openEditors.minVisible": 1,
+  "explorer.openEditors.visible": 1,
+  "workbench.editor.showIcons": false, // removes icon from opened files in tabs
+  "workbench.editor.tabActionUnpinVisibility": false, // removes close button from tabs
+  "workbench.editor.showTabs": "single", // removes tabs
+  "editor.overviewRulerBorder": false, // removes border from overview ruler
+  "editor.renderLineHighlight": "none", // removes line highlight
+  "editor.renderWhitespace": "none", // removes whitespace chars
+  "editor.inlineSuggest.enabled": true,
+  "workbench.activityBar.location": "hidden",
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "chat.commandCenter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  
+  //AUTO SAVE
+  "files.autoSave": "afterDelay",
+  
+  //INDENTATION
+  "editor.tabSize": 2,
+  "git.openRepositoryInParentFolders": "always",
+  
+  
+  //CUSTOM THEME
+  "csharp.inlayHints.enableInlayHintsForImplicitVariableTypes": false,
+  "csharp.inlayHints.enableInlayHintsForLambdaParameterTypes": false,
+  "dotnet.completion.showCompletionItemsFromUnimportedNamespaces": false,
+  "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+      "variable": {"fontStyle": "", "foreground": "#022640"},
+      "field": {"fontStyle": "", "foreground": "#226ca0"},
+      "parameter": {"fontStyle": "", "foreground": "#022640"},
+      "keyword": {"fontStyle": "", "foreground": "#707f10" }, //"#859900"
+      "controlKeyword": {"fontStyle": "bold", },
+      "extensionMethod": {"fontStyle": "bold", },
+    }
+  },
+
+  //FILES
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "workbench.editorAssociations": {
+    "*.png": "editor.excalidraw"
+  },
+  
+  //MACOS
+  "terminal.integrated.defaultProfile.osx": "zsh",
+
+  //FSHARP
+  "[fsharp]": {
+    "editor.defaultFormatter": "Ionide.Ionide-fsharp",
+    "editor.tabSize": 2
+  },
+  
+  "FSharp.inlayHints.enabled": true,
+  "FSharp.inlayHints.parameterNames": false,
+  "FSharp.inlayHints.typeAnnotations": false,
+  
+  //Nicer explorer view
+  "FSharp.showProjectExplorerIn": "explorer",
+    "FSharp.showExplorerOnStartup": false,
+    
+  //File nesting for FABLE
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+      "*.fs": "${basename}.fsi, ${basename}.fs.js, ${basename}.fs.js.map",
+      "*.fsl": "${basename}.fsi, ${basename}.fs",
+      "*.fsy": "${basename}.fsi, ${basename}.fs"
+    },
+    "workbench.colorTheme": "Solarized Light",
+}
+  
