@@ -16,8 +16,7 @@ I use terminal and ```cd``` command to navigate to repository and ```code .``` t
 
 I prefer Vertical Tabs over horizontal ones (I use Open Editors for that focus on it with ```Ctrl + K, E```), I like having the bar on the left side so the code starts a little bit more in the center of the screen. I have the main bar on the right, usually in File explorer and I hide it (```Ctrl + B```) when I need more space. I have a terminal open (```Ctrl + ` ```) almost all the time and I use it mainly for launching project from the command line and git CLI.
 
-<!-- ![Screenshot](img/screenshot.png) -->
-TODO: add new screenshot
+![Screenshot](img/screen.png)
 
 ## Philosophy
 
@@ -115,3 +114,7 @@ But the real reason VS Code gets extensions / language support the fastest and i
 I'm not good enough at Vim and I find hjkl to be too tricky (why it isn't modernized to ijkl or something?) and at some point I in this modern semi-AI era I feel like typing speed is not that big of a stopper. Vim bindings certainly makes it more fun to edit text and in the future I'll probably try them again, and again. :)
 
 Checkout [my try for VIM in Vscode](vim.md) that I will probably reuse again, and again.
+
+## Update: I actually gave Dance a chance
+
+[My dance config still WIP](dance.md)
